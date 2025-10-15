@@ -1,8 +1,0 @@
-# Python-generated files
-output/
-build/
-__pycache__/
-jsons/
-lib builder/
-libs
-.venv
