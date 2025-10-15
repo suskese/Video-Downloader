@@ -6,3 +6,4 @@ jsons/
 lib builder/
 libs
 .venv
+.gitignore

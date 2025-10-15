@@ -412,7 +412,7 @@ class DownloaderApp(ctk.CTk):
 			start = self.start_time_var.get()
 			end = self.end_time_var.get()
 			if start and end and start != "00:00:00" and end != "00:00:00":
-				cmd += ['--download-sections', f'*{start}-{end}']
+				cmd += ['--force-keyframes-at-cuts', '--download-sections', f'*{start}-{end}']
 		env = os.environ.copy()
 		env['PATH'] = libs_dir + os.pathsep + env.get('PATH', '')
 		self.status_var.set("Downloading...")
