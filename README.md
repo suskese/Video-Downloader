@@ -4,6 +4,3 @@
 # Features
 - Automatic YT_DLP update
 - Automatic Dependency Installer
-
-# Known issues
-- When downloading specific fragment video/audio is longer than need to be
